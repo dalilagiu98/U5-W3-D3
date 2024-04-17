@@ -2,6 +2,7 @@ package dalilagiu9.U5W3D3;
 
 import dalilagiu9.U5W3D3.adapter.InfoAdapter;
 import dalilagiu9.U5W3D3.entitiesAdapter.Info;
+import dalilagiu9.U5W3D3.entitiesAdapter.UserData;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -21,10 +22,8 @@ public class U5W3D3Application {
 		info.setDateOfBirth(dob.getTime());
 
 		InfoAdapter infoAdapter = new InfoAdapter(info);
-		String completeName = infoAdapter.getCompleteName();
-		int age = infoAdapter.getAge();
-		System.out.println("Complete name: " + completeName);
-		System.out.println("Age: " + age);
+		UserData userData = new UserData();
+		userData.getData(infoAdapter);
 	}
 
 }

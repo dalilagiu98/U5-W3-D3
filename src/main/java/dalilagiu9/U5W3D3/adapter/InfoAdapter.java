@@ -14,7 +14,9 @@ public class InfoAdapter implements DataSource {
 
     @Override
     public String getCompleteName() {
-        return info.getName() + " " + info.getSurname();
+        String result = info.getName() + " " + info.getSurname();
+        System.out.println("Complete name is: " + result);
+        return result;
     }
 
     @Override
@@ -27,6 +29,7 @@ public class InfoAdapter implements DataSource {
         if(dateOfBirth.get(Calendar.MONTH) > now.get(Calendar.MONTH) || (dateOfBirth.get(Calendar.MONTH) ==  now.get(Calendar.MONTH) && dateOfBirth.get(Calendar.DATE) > now.get(Calendar.DATE))) {
             age--;
         }
+        System.out.println("The age is: " + age);
         return age;
     }
 }
