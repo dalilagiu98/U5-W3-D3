@@ -1,4 +1,4 @@
-package dalilagiu9.U5W3D3.entities;
+package dalilagiu9.U5W3D3.entitiesAdapter;
 
 
 

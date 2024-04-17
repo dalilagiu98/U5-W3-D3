@@ -1,13 +1,11 @@
 package dalilagiu9.U5W3D3;
 
 import dalilagiu9.U5W3D3.adapter.InfoAdapter;
-import dalilagiu9.U5W3D3.entities.Info;
-import dalilagiu9.U5W3D3.entities.UserData;
+import dalilagiu9.U5W3D3.entitiesAdapter.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Calendar;
-import java.util.Date;
 
 @SpringBootApplication
 public class U5W3D3Application {

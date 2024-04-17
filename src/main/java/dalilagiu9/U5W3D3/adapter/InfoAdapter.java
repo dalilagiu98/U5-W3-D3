@@ -1,7 +1,7 @@
 package dalilagiu9.U5W3D3.adapter;
 
-import dalilagiu9.U5W3D3.entities.DataSource;
-import dalilagiu9.U5W3D3.entities.Info;
+import dalilagiu9.U5W3D3.entitiesAdapter.DataSource;
+import dalilagiu9.U5W3D3.entitiesAdapter.Info;
 
 import java.util.Calendar;
 
